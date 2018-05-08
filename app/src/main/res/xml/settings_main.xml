@@ -2,13 +2,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/settings_title">
 
-    <EditTextPreference
-        android:defaultValue="@string/settings_relevance_default"
-        android:inputType="text"
-        android:key="@string/settings_relevance_key"
-        android:selectAllOnFocus="true"
-        android:title="@string/settings_relevance_label" />
-
     <ListPreference
         android:defaultValue="@string/settings_order_by_default"
         android:entries="@array/settings_order_by_labels"

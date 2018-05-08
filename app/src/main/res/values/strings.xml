@@ -5,4 +5,24 @@
 
     <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
     <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_relevance_label">Relevance</string>
+    <string name="settings_relevance_key" translatable="false">relevance</string>
+    <string name="settings_relevance_default"> </string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
 </resources>
